@@ -27,6 +27,11 @@ The architecture automatically scales out when CPU utilization exceeds 50% and s
 ![Architecture](images/streamflix-architecture.png)
 
 ---
+## Deployment Guide
+
+For detailed deployment instructions, refer to:
+
+- [Deployment Steps](docs/deployment-steps.md)
 
 ## Architecture Components
 
