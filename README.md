@@ -52,25 +52,25 @@ Created a reusable Azure Image using:
 ## Implementation Screenshots
 
 ### Resource Group
-![Resource Group](images/resource-group.png)
+![Resource Group](images/resource-group.png.png)
 
 ### Virtual Network
-![VNET](images/vnet.png)
+![VNET](images/vnet.png.png)
 
 ### Subnet Configuration
-![Subnet](images/subnet.png)
+![Subnet](images/subnet.png.png)
 
 ### Custom VM Image
-![VM Image](images/vm-image.png)
+![VM Image](images/vm-image.png.png)
 
 ### VM Scale Set
-![VM Scale Set](images/vm-scale-set.png)
+![VM Scale Set](images/vm-scale-set.png.png)
 
 ### Azure Load Balancer
-![Load Balancer](images/load-balancer.png)
+![Load Balancer](images/load-balancer.png.png)
 
 ### Deployment Activity
-![Activity Log](images/activity-log.png)
+![Activity Log](images/activity-log.png.png)
 
 ```bash
 waagent -deprovision+user
