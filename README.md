@@ -8,6 +8,20 @@ The architecture ensures high availability, scalability, and fault tolerance by 
 
 ---
 
+## Project Outcome
+
+Successfully deployed a highly available Streamflix web application on Azure using:
+
+- Azure Virtual Network
+- Public and Private Subnets
+- Apache Web Server
+- Custom VM Image
+- Azure VM Scale Set
+- Azure Load Balancer
+- CPU-Based Auto Scaling
+
+The architecture automatically scales out when CPU utilization exceeds 50% and scales in when CPU utilization drops below 20%, ensuring efficient resource utilization and high availability.
+
 ## Architecture Diagram
 
 ![Architecture](images/streamflix-architecture.png)
@@ -34,6 +48,29 @@ The architecture ensures high availability, scalability, and fault tolerance by 
 
 ### Custom Image
 Created a reusable Azure Image using:
+
+## Implementation Screenshots
+
+### Resource Group
+![Resource Group](images/resource-group.png)
+
+### Virtual Network
+![VNET](images/vnet.png)
+
+### Subnet Configuration
+![Subnet](images/subnet.png)
+
+### Custom VM Image
+![VM Image](images/vm-image.png)
+
+### VM Scale Set
+![VM Scale Set](images/vm-scale-set.png)
+
+### Azure Load Balancer
+![Load Balancer](images/load-balancer.png)
+
+### Deployment Activity
+![Activity Log](images/activity-log.png)
 
 ```bash
 waagent -deprovision+user
